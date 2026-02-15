@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { GraduationCap, Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin } from "lucide-react";
+import universityLogo from "@/assets/university-logo.png";
 
 const Footer = () => {
   return (
@@ -9,11 +10,11 @@ const Footer = () => {
           {/* About */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <GraduationCap className="w-8 h-8 text-accent" />
-              <h3 className="text-lg font-heading font-bold">Bhagwanti Education Centre & Degree College</h3>
+              <img src={universityLogo} alt="CSJMU Logo" className="w-8 h-8 rounded-full object-contain bg-white" />
+              <h3 className="text-lg font-heading font-bold">Chhatrapati Shahu Ji Maharaj University Kanpur</h3>
             </div>
             <p className="text-sm opacity-80 leading-relaxed">
-              Established in 1985, Bhagwanti Education Centre & Degree College is committed to academic excellence, 
+              Chhatrapati Shahu Ji Maharaj University, Kanpur is committed to academic excellence, 
               research innovation, and holistic development of students.
             </p>
           </div>
@@ -46,7 +47,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-accent flex-shrink-0" />
-                <span className="opacity-80">info@bhagwanti.edu.in</span>
+                <span className="opacity-80">info@csjmu.ac.in</span>
               </li>
             </ul>
           </div>
@@ -68,7 +69,7 @@ const Footer = () => {
       {/* Bottom Bar */}
       <div className="border-t border-primary-foreground/10">
         <div className="container mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center text-sm opacity-70">
-          <p>© 2026 Bhagwanti Education Centre & Degree College. All rights reserved.</p>
+          <p>© 2026 Chhatrapati Shahu Ji Maharaj University Kanpur. All rights reserved.</p>
           <p className="mt-1 md:mt-0">Approved by UGC | NAAC 'A++' Accredited</p>
         </div>
       </div>

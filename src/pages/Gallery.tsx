@@ -23,7 +23,7 @@ const photos = [
 ];
 
 const videos = [
-  { title: "Campus Tour — Bhagwanti Education Centre", duration: "5:32" },
+  { title: "Campus Tour — CSJM University Kanpur", duration: "5:32" },
   { title: "Annual Day Celebration 2025 Highlights", duration: "8:14" },
   { title: "Convocation Ceremony — Batch of 2025", duration: "12:45" },
   { title: "Research Lab Walkthrough", duration: "4:20" },

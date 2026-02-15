@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, Phone, Mail, GraduationCap, ChevronDown } from "lucide-react";
+import { Menu, X, Phone, Mail, ChevronDown } from "lucide-react";
+import universityLogo from "@/assets/university-logo.png";
 
 const navLinks = [
   { label: "Home", path: "/" },
@@ -23,7 +24,7 @@ const Navbar = () => {
         <div className="container mx-auto px-4 flex justify-between items-center">
           <div className="flex items-center gap-6">
             <span className="flex items-center gap-1"><Phone className="w-3 h-3" /> +91-1234-567890</span>
-            <span className="flex items-center gap-1"><Mail className="w-3 h-3" /> info@bhagwanti.edu.in</span>
+            <span className="flex items-center gap-1"><Mail className="w-3 h-3" /> info@csjmu.ac.in</span>
           </div>
           <div className="flex items-center gap-4">
             <Link to="/admin" className="hover:text-accent transition-colors">Admin Login</Link>
@@ -39,14 +40,16 @@ const Navbar = () => {
           <div className="flex items-center justify-between h-16 md:h-20">
             {/* Logo */}
             <Link to="/" className="flex items-center gap-3">
-              <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-navy flex items-center justify-center">
-                <GraduationCap className="w-6 h-6 md:w-7 md:h-7 text-accent" />
-              </div>
+              <img
+                src={universityLogo}
+                alt="Chhatrapati Shahu Ji Maharaj University Kanpur Logo"
+                className="w-10 h-10 md:w-12 md:h-12 rounded-full object-contain bg-white"
+              />
               <div>
-                <h1 className="text-lg md:text-xl font-bold text-primary font-heading leading-tight">
-                  Bhagwanti Education
+                <h1 className="text-sm md:text-lg font-bold text-primary font-heading leading-tight">
+                  CSJM University
                 </h1>
-                <p className="text-xs text-muted-foreground -mt-0.5">Centre & Degree College</p>
+                <p className="text-xs text-muted-foreground -mt-0.5">Kanpur</p>
               </div>
             </Link>
 

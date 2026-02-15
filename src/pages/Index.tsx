@@ -7,7 +7,7 @@ import heroBanner2 from "@/assets/hero-banner-2.jpg";
 import heroBanner3 from "@/assets/hero-banner-3.jpg";
 
 const slides = [
-  { image: heroBanner1, title: "Welcome to Bhagwanti Education Centre & Degree College", subtitle: "Shaping Future Leaders Since 1985" },
+  { image: heroBanner1, title: "Welcome to Chhatrapati Shahu Ji Maharaj University Kanpur", subtitle: "Shaping Future Leaders with Excellence" },
   { image: heroBanner2, title: "Celebrating Academic Excellence", subtitle: "Join Our Legacy of 10,000+ Successful Alumni" },
   { image: heroBanner3, title: "World-Class Learning Facilities", subtitle: "State-of-the-Art Labs, Libraries & Research Centers" },
 ];

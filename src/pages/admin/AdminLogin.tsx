@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { GraduationCap, Lock, User } from "lucide-react";
+import { Lock, User } from "lucide-react";
+import universityLogo from "@/assets/university-logo.png";
 
 const AdminLogin = () => {
   const navigate = useNavigate();
@@ -16,11 +17,9 @@ const AdminLogin = () => {
     <div className="min-h-screen bg-navy-gradient flex items-center justify-center p-4">
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
-          <div className="w-16 h-16 rounded-full bg-accent mx-auto flex items-center justify-center mb-4">
-            <GraduationCap className="w-8 h-8 text-accent-foreground" />
-          </div>
+          <img src={universityLogo} alt="CSJMU Logo" className="w-16 h-16 rounded-full object-contain bg-white mx-auto mb-4" />
           <h1 className="text-2xl font-heading font-bold text-primary-foreground">Admin Login</h1>
-          <p className="text-primary-foreground/70 text-sm mt-1">Bhagwanti Education Centre & Degree College</p>
+          <p className="text-primary-foreground/70 text-sm mt-1">Chhatrapati Shahu Ji Maharaj University Kanpur</p>
         </div>
 
         <form onSubmit={handleLogin} className="bg-card rounded-xl shadow-lg p-8 space-y-5">
