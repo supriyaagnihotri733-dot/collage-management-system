@@ -18,9 +18,9 @@ const About = () => {
               <h2 className="section-title">Our History</h2>
               <div className="gold-divider !mx-0" />
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Vidyapeeth National University was established in 1985 with a vision to provide world-class 
+                Bhagwanti Education Centre & Degree College was established in 1985 with a vision to provide world-class 
                 education in the heart of India. What began as a small institution with just three departments 
-                has grown into one of the most prestigious universities in the country.
+                has grown into one of the most prestigious colleges in the country.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Over the past 39 years, the university has expanded to include over 50 courses across 
@@ -29,7 +29,7 @@ const About = () => {
               <p className="text-muted-foreground leading-relaxed">
                 Our alumni have gone on to become leaders in various fields including technology, medicine, 
                 law, public service, and entrepreneurship, carrying the values of excellence and integrity 
-                that define the Vidyapeeth spirit.
+                that define the Bhagwanti spirit.
               </p>
             </div>
             <div className="rounded-xl overflow-hidden shadow-lg">

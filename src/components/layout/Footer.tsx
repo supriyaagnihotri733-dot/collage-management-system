@@ -10,10 +10,10 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <GraduationCap className="w-8 h-8 text-accent" />
-              <h3 className="text-lg font-heading font-bold">Vidyapeeth National University</h3>
+              <h3 className="text-lg font-heading font-bold">Bhagwanti Education Centre & Degree College</h3>
             </div>
             <p className="text-sm opacity-80 leading-relaxed">
-              Established in 1985, Vidyapeeth National University is committed to academic excellence, 
+              Established in 1985, Bhagwanti Education Centre & Degree College is committed to academic excellence, 
               research innovation, and holistic development of students.
             </p>
           </div>
@@ -38,7 +38,7 @@ const Footer = () => {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 mt-0.5 text-accent flex-shrink-0" />
-                <span className="opacity-80">NH-48, Vidyapeeth Nagar, New Delhi - 110001, India</span>
+                <span className="opacity-80">NH-48, Bhagwanti Nagar, New Delhi - 110001, India</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-accent flex-shrink-0" />
@@ -46,7 +46,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-accent flex-shrink-0" />
-                <span className="opacity-80">info@vidyapeeth.edu.in</span>
+                <span className="opacity-80">info@bhagwanti.edu.in</span>
               </li>
             </ul>
           </div>
@@ -68,7 +68,7 @@ const Footer = () => {
       {/* Bottom Bar */}
       <div className="border-t border-primary-foreground/10">
         <div className="container mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center text-sm opacity-70">
-          <p>© 2026 Vidyapeeth National University. All rights reserved.</p>
+          <p>© 2026 Bhagwanti Education Centre & Degree College. All rights reserved.</p>
           <p className="mt-1 md:mt-0">Approved by UGC | NAAC 'A++' Accredited</p>
         </div>
       </div>

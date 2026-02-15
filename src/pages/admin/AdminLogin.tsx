@@ -20,7 +20,7 @@ const AdminLogin = () => {
             <GraduationCap className="w-8 h-8 text-accent-foreground" />
           </div>
           <h1 className="text-2xl font-heading font-bold text-primary-foreground">Admin Login</h1>
-          <p className="text-primary-foreground/70 text-sm mt-1">Vidyapeeth National University</p>
+          <p className="text-primary-foreground/70 text-sm mt-1">Bhagwanti Education Centre & Degree College</p>
         </div>
 
         <form onSubmit={handleLogin} className="bg-card rounded-xl shadow-lg p-8 space-y-5">

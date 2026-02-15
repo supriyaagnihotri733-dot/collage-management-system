@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="container mx-auto px-4 flex justify-between items-center">
           <div className="flex items-center gap-6">
             <span className="flex items-center gap-1"><Phone className="w-3 h-3" /> +91-1234-567890</span>
-            <span className="flex items-center gap-1"><Mail className="w-3 h-3" /> info@vidyapeeth.edu.in</span>
+            <span className="flex items-center gap-1"><Mail className="w-3 h-3" /> info@bhagwanti.edu.in</span>
           </div>
           <div className="flex items-center gap-4">
             <Link to="/admin" className="hover:text-accent transition-colors">Admin Login</Link>
@@ -44,9 +44,9 @@ const Navbar = () => {
               </div>
               <div>
                 <h1 className="text-lg md:text-xl font-bold text-primary font-heading leading-tight">
-                  Vidyapeeth National
+                  Bhagwanti Education
                 </h1>
-                <p className="text-xs text-muted-foreground -mt-0.5">University, India</p>
+                <p className="text-xs text-muted-foreground -mt-0.5">Centre & Degree College</p>
               </div>
             </Link>
 

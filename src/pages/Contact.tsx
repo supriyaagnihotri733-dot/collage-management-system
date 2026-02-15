@@ -14,7 +14,7 @@ const Contact = () => {
     <div>
       <div className="page-banner">
         <h1>Contact Us</h1>
-        <p>Get in Touch with Vidyapeeth National University</p>
+        <p>Get in Touch with Bhagwanti Education Centre & Degree College</p>
       </div>
 
       <section className="py-12 md:py-16">
@@ -31,7 +31,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-heading font-semibold text-primary">Address</h4>
-                    <p className="text-sm text-muted-foreground">NH-48, Vidyapeeth Nagar,<br />New Delhi - 110001, India</p>
+                    <p className="text-sm text-muted-foreground">NH-48, Bhagwanti Nagar,<br />New Delhi - 110001, India</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -49,7 +49,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-heading font-semibold text-primary">Email</h4>
-                    <p className="text-sm text-muted-foreground">info@vidyapeeth.edu.in<br />admissions@vidyapeeth.edu.in</p>
+                    <p className="text-sm text-muted-foreground">info@bhagwanti.edu.in<br />admissions@bhagwanti.edu.in</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
