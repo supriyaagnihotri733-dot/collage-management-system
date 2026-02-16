@@ -3,15 +3,16 @@ import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { Bell, Calendar, BookOpen, Users, Award, ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
 import collegeBuilding from "@/assets/college-building.png";
+import collegeBuilding2 from "@/assets/college-building-2.png";
 import heroBanner1 from "@/assets/hero-banner-1.jpg";
 import heroBanner2 from "@/assets/hero-banner-2.jpg";
 import heroBanner3 from "@/assets/hero-banner-3.jpg";
 
 const slides = [
   { image: collegeBuilding, title: "Welcome to Bhagwanti Education Centre & Degree College", subtitle: "Shaping Future Leaders with Excellence" },
-  { image: heroBanner1, title: "Celebrating Academic Excellence", subtitle: "Join Our Legacy of 10,000+ Successful Alumni" },
-  { image: heroBanner2, title: "World-Class Learning Facilities", subtitle: "State-of-the-Art Labs, Libraries & Research Centers" },
-  { image: heroBanner3, title: "Building Tomorrow's Leaders Today", subtitle: "Empowering Students Through Quality Education" },
+  { image: collegeBuilding2, title: "Celebrating Academic Excellence", subtitle: "Join Our Legacy of 10,000+ Successful Alumni" },
+  { image: heroBanner1, title: "World-Class Learning Facilities", subtitle: "State-of-the-Art Labs, Libraries & Research Centers" },
+  { image: heroBanner2, title: "Building Tomorrow's Leaders Today", subtitle: "Empowering Students Through Quality Education" },
 ];
 
 const notices = [
