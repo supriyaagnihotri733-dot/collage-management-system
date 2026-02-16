@@ -31,7 +31,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-heading font-semibold text-primary">Address</h4>
-                    <p className="text-sm text-muted-foreground">NH-48, Bhagwanti Nagar,<br />New Delhi - 110001, India</p>
+                    <p className="text-sm text-muted-foreground">Kalyanpur, Kanpur Nagar,<br />Uttar Pradesh - 208024, India</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
