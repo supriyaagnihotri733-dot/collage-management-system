@@ -18,18 +18,18 @@ const About = () => {
               <h2 className="section-title">Our History</h2>
               <div className="gold-divider !mx-0" />
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Chhatrapati Shahu Ji Maharaj University, Kanpur was established with a vision to provide world-class 
-                education in Uttar Pradesh. What began as a small institution has grown into one of the most 
-                prestigious universities in the state.
+                Bhagwanti Education Centre & Degree College was established with a vision to provide quality 
+                education. What began as a small institution has grown into one of the most 
+                respected colleges in the region.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                The university has expanded to include over 50 courses across 
+                The college has expanded to include over 50 courses across 
                 12 departments, serving more than 10,000 students from across India and abroad.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 Our alumni have gone on to become leaders in various fields including technology, medicine, 
                 law, public service, and entrepreneurship, carrying the values of excellence and integrity 
-                that define the CSJMU spirit.
+                that define the Bhagwanti spirit.
               </p>
             </div>
             <div className="rounded-xl overflow-hidden shadow-lg">

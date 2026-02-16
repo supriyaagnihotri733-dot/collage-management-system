@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className="container mx-auto px-4 flex justify-between items-center">
           <div className="flex items-center gap-6">
             <span className="flex items-center gap-1"><Phone className="w-3 h-3" /> +91-1234-567890</span>
-            <span className="flex items-center gap-1"><Mail className="w-3 h-3" /> info@csjmu.ac.in</span>
+            <span className="flex items-center gap-1"><Mail className="w-3 h-3" /> info@bhagwanti.edu.in</span>
           </div>
           <div className="flex items-center gap-4">
             <Link to="/admin" className="hover:text-accent transition-colors">Admin Login</Link>
@@ -42,14 +42,14 @@ const Navbar = () => {
             <Link to="/" className="flex items-center gap-3">
               <img
                 src={universityLogo}
-                alt="Chhatrapati Shahu Ji Maharaj University Kanpur Logo"
+                alt="Bhagwanti Education Centre & Degree College Logo"
                 className="w-10 h-10 md:w-12 md:h-12 rounded-full object-contain bg-white"
               />
               <div>
                 <h1 className="text-sm md:text-lg font-bold text-primary font-heading leading-tight">
-                  CSJM University
+                  Bhagwanti Education Centre
                 </h1>
-                <p className="text-xs text-muted-foreground -mt-0.5">Kanpur</p>
+                <p className="text-xs text-muted-foreground -mt-0.5">& Degree College</p>
               </div>
             </Link>
 
