@@ -20,12 +20,12 @@ const steps = [
 ];
 
 const fees = [
-  { course: "B.Sc (All Subjects)", tuition: "₹25,000", hostel: "₹30,000", exam: "₹3,000", total: "₹58,000" },
-  { course: "B.Sc / Biotech", tuition: "₹30,000", hostel: "₹30,000", exam: "₹3,000", total: "₹63,000" },
-  { course: "B.Lib", tuition: "₹20,000", hostel: "₹30,000", exam: "₹3,000", total: "₹53,000" },
-  { course: "M.Ed", tuition: "₹35,000", hostel: "₹30,000", exam: "₹3,000", total: "₹68,000" },
-  { course: "D.El.Ed (BTC)", tuition: "₹25,000", hostel: "₹30,000", exam: "₹3,000", total: "₹58,000" },
-  { course: "DPSC (NTT)", tuition: "₹20,000", hostel: "₹30,000", exam: "₹3,000", total: "₹53,000" },
+  { course: "B.Sc (All Subjects)", tuition: "₹25,000", exam: "₹3,000", total: "₹28,000" },
+  { course: "B.Sc / Biotech", tuition: "₹30,000", exam: "₹3,000", total: "₹33,000" },
+  { course: "B.Lib", tuition: "₹20,000", exam: "₹3,000", total: "₹23,000" },
+  { course: "M.Ed", tuition: "₹35,000", exam: "₹3,000", total: "₹38,000" },
+  { course: "D.El.Ed (BTC)", tuition: "₹25,000", exam: "₹3,000", total: "₹28,000" },
+  { course: "DPSC (NTT)", tuition: "₹20,000", exam: "₹3,000", total: "₹23,000" },
 ];
 
 const Admissions = () => {
@@ -73,7 +73,6 @@ const Admissions = () => {
                 <tr className="bg-primary text-primary-foreground">
                   <th className="text-left p-4 text-sm font-semibold">Course</th>
                   <th className="text-left p-4 text-sm font-semibold">Tuition Fee</th>
-                  <th className="text-left p-4 text-sm font-semibold">Hostel Fee</th>
                   <th className="text-left p-4 text-sm font-semibold">Exam Fee</th>
                   <th className="text-left p-4 text-sm font-semibold">Total</th>
                 </tr>
@@ -83,7 +82,6 @@ const Admissions = () => {
                   <tr key={i} className={`${i % 2 === 0 ? "bg-card" : "bg-secondary/50"} border-b last:border-0`}>
                     <td className="p-4 text-sm font-medium text-foreground">{f.course}</td>
                     <td className="p-4 text-sm text-muted-foreground">{f.tuition}</td>
-                    <td className="p-4 text-sm text-muted-foreground">{f.hostel}</td>
                     <td className="p-4 text-sm text-muted-foreground">{f.exam}</td>
                     <td className="p-4 text-sm font-semibold text-primary">{f.total}</td>
                   </tr>
