@@ -2,12 +2,12 @@ import { useState } from "react";
 import { CheckCircle, FileText, IndianRupee } from "lucide-react";
 
 const eligibility = [
-  { course: "B.Tech", criteria: "10+2 with PCM, Min. 60% marks, JEE Main qualified" },
   { course: "B.Sc", criteria: "10+2 with relevant science stream, Min. 55% marks" },
-  { course: "BBA / BCA", criteria: "10+2 from any recognized board, Min. 50% marks" },
-  { course: "M.Tech", criteria: "B.Tech/B.E. with Min. 60% marks, GATE qualified (preferred)" },
-  { course: "MBA", criteria: "Graduation in any discipline, Min. 55%, CAT/MAT score" },
-  { course: "B.Ed", criteria: "Graduation with Min. 50% marks" },
+  { course: "B.Sc / Biotech", criteria: "10+2 with Biology/Science stream, Min. 55% marks" },
+  { course: "B.Lib", criteria: "Graduation in any discipline, Min. 50% marks" },
+  { course: "M.Ed", criteria: "B.Ed with Min. 55% marks from recognized university" },
+  { course: "D.El.Ed (BTC)", criteria: "Graduation with Min. 50% marks, as per NCTE norms" },
+  { course: "DPSC (NTT)", criteria: "10+2 from any recognized board, Min. 50% marks" },
 ];
 
 const steps = [
@@ -20,13 +20,12 @@ const steps = [
 ];
 
 const fees = [
-  { course: "B.Tech (All Branches)", tuition: "₹75,000", hostel: "₹35,000", exam: "₹5,000", total: "₹1,15,000" },
   { course: "B.Sc (All Subjects)", tuition: "₹25,000", hostel: "₹30,000", exam: "₹3,000", total: "₹58,000" },
-  { course: "BBA", tuition: "₹40,000", hostel: "₹30,000", exam: "₹3,000", total: "₹73,000" },
-  { course: "BCA", tuition: "₹45,000", hostel: "₹30,000", exam: "₹3,000", total: "₹78,000" },
-  { course: "M.Tech", tuition: "₹90,000", hostel: "₹35,000", exam: "₹5,000", total: "₹1,30,000" },
-  { course: "MBA", tuition: "₹1,00,000", hostel: "₹35,000", exam: "₹5,000", total: "₹1,40,000" },
-  { course: "B.Ed", tuition: "₹30,000", hostel: "₹30,000", exam: "₹3,000", total: "₹63,000" },
+  { course: "B.Sc / Biotech", tuition: "₹30,000", hostel: "₹30,000", exam: "₹3,000", total: "₹63,000" },
+  { course: "B.Lib", tuition: "₹20,000", hostel: "₹30,000", exam: "₹3,000", total: "₹53,000" },
+  { course: "M.Ed", tuition: "₹35,000", hostel: "₹30,000", exam: "₹3,000", total: "₹68,000" },
+  { course: "D.El.Ed (BTC)", tuition: "₹25,000", hostel: "₹30,000", exam: "₹3,000", total: "₹58,000" },
+  { course: "DPSC (NTT)", tuition: "₹20,000", hostel: "₹30,000", exam: "₹3,000", total: "₹53,000" },
 ];
 
 const Admissions = () => {
