@@ -36,24 +36,6 @@ const Admissions = () => {
         <p>Your Journey to Excellence Starts Here</p>
       </div>
 
-      {/* Eligibility */}
-      <section className="py-12 md:py-16">
-        <div className="container mx-auto px-4">
-          <div className="flex items-center gap-2 mb-2">
-            <CheckCircle className="w-6 h-6 text-accent" />
-            <h2 className="section-title !mb-0">Eligibility Criteria</h2>
-          </div>
-          <p className="section-subtitle">Minimum qualifications required for various programs</p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {eligibility.map((e, i) => (
-              <div key={i} className="bg-card rounded-xl border p-5 shadow-sm">
-                <h4 className="font-heading font-semibold text-primary mb-1">{e.course}</h4>
-                <p className="text-sm text-muted-foreground">{e.criteria}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Admission Process */}
       <section className="py-12 md:py-16 bg-secondary">
