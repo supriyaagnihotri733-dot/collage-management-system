@@ -11,8 +11,6 @@ import heroBanner3 from "@/assets/hero-banner-3.jpg";
 const slides = [
   { image: collegeBuilding, title: "Welcome to Bhagwanti Education Centre & Degree College", subtitle: "Shaping Future Leaders with Excellence" },
   { image: collegeBuilding2, title: "Celebrating Academic Excellence", subtitle: "Join Our Legacy of 10,000+ Successful Alumni" },
-  
-  { image: heroBanner2, title: "Building Tomorrow's Leaders Today", subtitle: "Empowering Students Through Quality Education" },
 ];
 
 const notices = [
