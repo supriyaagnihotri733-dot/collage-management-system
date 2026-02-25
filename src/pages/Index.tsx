@@ -7,6 +7,7 @@ import collegeBuilding2 from "@/assets/college-building-2.png";
 import heroBanner1 from "@/assets/classroom.png";
 import heroBanner2 from "@/assets/hero-banner-2.jpg";
 import heroBanner3 from "@/assets/hero-banner-3.jpg";
+import newsEventPhoto from "@/assets/news-event-photo.png";
 
 const slides = [
   { image: collegeBuilding, title: "Welcome to Bhagwanti Education Centre & Degree College", subtitle: "Shaping Future Leaders with Excellence" },
@@ -158,6 +159,9 @@ const Index = () => {
               <div className="flex items-center gap-2 mb-6">
                 <Calendar className="w-6 h-6 text-accent" />
                 <h3 className="section-title !mb-0">News & Events</h3>
+              </div>
+              <div className="mb-4 rounded-xl overflow-hidden border shadow-sm">
+                <img src={newsEventPhoto} alt="News & Events" className="w-full h-48 object-cover" />
               </div>
               <div className="space-y-4">
                 {events.map((event, i) => (
