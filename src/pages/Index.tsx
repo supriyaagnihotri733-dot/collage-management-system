@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { Bell, Calendar, BookOpen, Users, Award, ArrowRight, ChevronLeft, ChevronRight, Facebook, Instagram, Twitter, Youtube } from "lucide-react";
+import { Bell, Calendar, BookOpen, Users, Award, ArrowRight, ChevronLeft, ChevronRight, Facebook, Instagram, Youtube } from "lucide-react";
 import collegeBuilding from "@/assets/college-building.png";
 import collegeBuilding2 from "@/assets/college-building-2.png";
 import heroBanner1 from "@/assets/classroom.png";
