@@ -32,7 +32,7 @@ const stats = [
   { icon: Users, value: "10,000+", label: "Students Enrolled" },
   { icon: BookOpen, value: "8+", label: "Courses Offered" },
   { icon: Award, value: "A++", label: "NAAC Accreditation" },
-  { icon: Calendar, value: "39", label: "Years of Excellence" },
+  { icon: Calendar, value: "22", label: "Years of Excellence" },
 ];
 
 const Index = () => {
