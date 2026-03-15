@@ -130,51 +130,25 @@ const Index = () => {
       {/* Notice Board & Events */}
       <section className="py-12 md:py-16">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            {/* Notice Board */}
-            <div>
-              <div className="flex items-center gap-2 mb-6">
-                <Bell className="w-6 h-6 text-accent" />
-                <h3 className="section-title !mb-0">Notice Board</h3>
-              </div>
-              <div className="bg-card rounded-xl border shadow-sm overflow-hidden">
-                {notices.map((notice, i) => (
-                  <div key={i} className={`flex items-start gap-4 p-4 ${i !== notices.length - 1 ? "border-b" : ""} hover:bg-secondary/50 transition-colors cursor-pointer`}>
-                    <div className="text-center min-w-[60px]">
-                      <div className="text-xs text-muted-foreground">{notice.date}</div>
-                    </div>
-                    <div className="flex-1">
-                      <span className="notice-badge mb-1">{notice.type}</span>
-                      <p className="text-sm font-medium text-foreground mt-1">{notice.title}</p>
-                    </div>
-                    <ArrowRight className="w-4 h-4 text-muted-foreground mt-1 flex-shrink-0" />
-                  </div>
-                ))}
-              </div>
+          {/* Notice Board */}
+          <div>
+            <div className="flex items-center gap-2 mb-6">
+              <Bell className="w-6 h-6 text-accent" />
+              <h3 className="section-title !mb-0">Notice Board</h3>
             </div>
-
-            {/* News & Events */}
-            <div>
-              <div className="flex items-center gap-2 mb-6">
-                <Calendar className="w-6 h-6 text-accent" />
-                <h3 className="section-title !mb-0">News & Events</h3>
-              </div>
-              <div className="space-y-4">
-                {events.map((event, i) => (
-                  <div key={i} className="bg-card rounded-xl border shadow-sm p-5 hover:shadow-md transition-shadow">
-                    <div className="flex items-start gap-4">
-                      <div className="bg-primary text-primary-foreground rounded-lg p-3 text-center min-w-[60px]">
-                        <div className="text-lg font-bold font-heading leading-tight">{event.date.split(" ")[0]}</div>
-                        <div className="text-xs">{event.date.split(" ")[1]}</div>
-                      </div>
-                      <div>
-                        <h4 className="font-semibold text-foreground">{event.title}</h4>
-                        <p className="text-sm text-muted-foreground mt-1">{event.desc}</p>
-                      </div>
-                    </div>
+            <div className="bg-card rounded-xl border shadow-sm overflow-hidden">
+              {notices.map((notice, i) => (
+                <div key={i} className={`flex items-start gap-4 p-4 ${i !== notices.length - 1 ? "border-b" : ""} hover:bg-secondary/50 transition-colors cursor-pointer`}>
+                  <div className="text-center min-w-[60px]">
+                    <div className="text-xs text-muted-foreground">{notice.date}</div>
                   </div>
-                ))}
-              </div>
+                  <div className="flex-1">
+                    <span className="notice-badge mb-1">{notice.type}</span>
+                    <p className="text-sm font-medium text-foreground mt-1">{notice.title}</p>
+                  </div>
+                  <ArrowRight className="w-4 h-4 text-muted-foreground mt-1 flex-shrink-0" />
+                </div>
+              ))}
             </div>
           </div>
         </div>
