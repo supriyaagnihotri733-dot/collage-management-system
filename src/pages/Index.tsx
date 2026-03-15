@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { Bell, Calendar, BookOpen, Users, Award, ArrowRight, ChevronLeft, ChevronRight, Facebook, Instagram, Twitter, Youtube } from "lucide-react";
+import { Bell, Calendar, BookOpen, Users, Award, ArrowRight, ChevronLeft, ChevronRight, Facebook, Instagram, Youtube } from "lucide-react";
 import collegeBuilding from "@/assets/college-building.png";
 import collegeBuilding2 from "@/assets/college-building-2.png";
 import heroBanner1 from "@/assets/classroom.png";
@@ -169,9 +169,6 @@ const Index = () => {
             </a>
             <a href="#" className="w-14 h-14 rounded-full bg-primary-foreground/20 text-primary-foreground flex items-center justify-center hover:bg-primary-foreground/30 transition-colors backdrop-blur-sm">
               <Instagram className="w-6 h-6" />
-            </a>
-            <a href="#" className="w-14 h-14 rounded-full bg-primary-foreground/20 text-primary-foreground flex items-center justify-center hover:bg-primary-foreground/30 transition-colors backdrop-blur-sm">
-              <Twitter className="w-6 h-6" />
             </a>
             <a href="#" className="w-14 h-14 rounded-full bg-primary-foreground/20 text-primary-foreground flex items-center justify-center hover:bg-primary-foreground/30 transition-colors backdrop-blur-sm">
               <Youtube className="w-6 h-6" />
