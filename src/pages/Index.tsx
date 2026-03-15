@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { Bell, Calendar, BookOpen, Users, Award, ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
+import { Bell, Calendar, BookOpen, Users, Award, ArrowRight, ChevronLeft, ChevronRight, Facebook, Instagram, Twitter, Youtube } from "lucide-react";
 import collegeBuilding from "@/assets/college-building.png";
 import collegeBuilding2 from "@/assets/college-building-2.png";
 import heroBanner1 from "@/assets/classroom.png";
@@ -154,22 +154,28 @@ const Index = () => {
         </div>
       </section>
 
-      {/* CTA */}
+      {/* Follow Us */}
       <section className="bg-navy-gradient py-12 md:py-16">
         <div className="container mx-auto px-4 text-center">
           <h3 className="text-3xl md:text-4xl font-heading font-bold text-primary-foreground mb-4">
-            Ready to Begin Your Journey?
+            Follow Us
           </h3>
           <p className="text-primary-foreground/80 text-lg mb-8 max-w-2xl mx-auto">
-            Admissions are open for the academic session 2026-27. Apply today and be part of our growing family.
+            Stay connected with us on social media for the latest updates, events, and news.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/admissions" className="px-8 py-3 bg-accent text-accent-foreground rounded-lg font-semibold hover:opacity-90">
-              Apply for Admission
-            </Link>
-            <Link to="/contact" className="px-8 py-3 border border-primary-foreground/30 text-primary-foreground rounded-lg font-semibold hover:bg-primary-foreground/10">
-              Contact Us
-            </Link>
+          <div className="flex gap-6 justify-center">
+            <a href="#" className="w-14 h-14 rounded-full bg-primary-foreground/20 text-primary-foreground flex items-center justify-center hover:bg-primary-foreground/30 transition-colors backdrop-blur-sm">
+              <Facebook className="w-6 h-6" />
+            </a>
+            <a href="#" className="w-14 h-14 rounded-full bg-primary-foreground/20 text-primary-foreground flex items-center justify-center hover:bg-primary-foreground/30 transition-colors backdrop-blur-sm">
+              <Instagram className="w-6 h-6" />
+            </a>
+            <a href="#" className="w-14 h-14 rounded-full bg-primary-foreground/20 text-primary-foreground flex items-center justify-center hover:bg-primary-foreground/30 transition-colors backdrop-blur-sm">
+              <Twitter className="w-6 h-6" />
+            </a>
+            <a href="#" className="w-14 h-14 rounded-full bg-primary-foreground/20 text-primary-foreground flex items-center justify-center hover:bg-primary-foreground/30 transition-colors backdrop-blur-sm">
+              <Youtube className="w-6 h-6" />
+            </a>
           </div>
         </div>
       </section>
