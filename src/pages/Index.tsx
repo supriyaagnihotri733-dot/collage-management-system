@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { Bell, Calendar, BookOpen, Users, Award, ArrowRight, ChevronLeft, ChevronRight, Facebook, Instagram, Youtube } from "lucide-react";
+import { Bell, Calendar, BookOpen, Users, Award, ArrowRight, ChevronLeft, ChevronRight, Facebook, Instagram, Youtube, ExternalLink } from "lucide-react";
 import collegeBuilding from "@/assets/college-building.png";
 import collegeBuilding2 from "@/assets/college-building-2.png";
 import heroBanner1 from "@/assets/classroom.png";
@@ -149,6 +149,24 @@ const Index = () => {
                   <ArrowRight className="w-4 h-4 text-muted-foreground mt-1 flex-shrink-0" />
                 </div>
               ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Important Information */}
+      <section className="py-12 md:py-16 bg-secondary/30">
+        <div className="container mx-auto px-4">
+          <h3 className="text-2xl md:text-3xl font-heading font-bold text-foreground mb-6 text-center">
+            Important Information
+          </h3>
+          <div className="max-w-2xl mx-auto">
+            <div className="bg-card rounded-xl border shadow-sm p-6">
+              <h4 className="text-lg font-semibold text-foreground mb-4">Important Link</h4>
+              <a href="#" className="flex items-center justify-between p-4 bg-secondary/50 rounded-lg hover:bg-secondary transition-colors group">
+                <span className="text-foreground font-medium">Mandatory Disclosure</span>
+                <ExternalLink className="w-5 h-5 text-accent group-hover:translate-x-1 transition-transform" />
+              </a>
             </div>
           </div>
         </div>
