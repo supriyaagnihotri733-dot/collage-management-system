@@ -7,7 +7,6 @@ import collegeBuilding2 from "@/assets/college-building-2.png";
 import heroBanner1 from "@/assets/classroom.png";
 import heroBanner2 from "@/assets/hero-banner-2.jpg";
 import heroBanner3 from "@/assets/hero-banner-3.jpg";
-import newsEventPhoto from "@/assets/news-event-photo.png";
 
 const slides = [
   { image: collegeBuilding, title: "Welcome to Bhagwanti Education Centre & Degree College", subtitle: "Shaping Future Leaders with Excellence" },
