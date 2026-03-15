@@ -171,9 +171,6 @@ const Index = () => {
               <Instagram className="w-6 h-6" />
             </a>
             <a href="#" className="w-14 h-14 rounded-full bg-primary-foreground/20 text-primary-foreground flex items-center justify-center hover:bg-primary-foreground/30 transition-colors backdrop-blur-sm">
-              <Twitter className="w-6 h-6" />
-            </a>
-            <a href="#" className="w-14 h-14 rounded-full bg-primary-foreground/20 text-primary-foreground flex items-center justify-center hover:bg-primary-foreground/30 transition-colors backdrop-blur-sm">
               <Youtube className="w-6 h-6" />
             </a>
           </div>
