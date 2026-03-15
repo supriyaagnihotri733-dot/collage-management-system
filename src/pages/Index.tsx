@@ -159,9 +159,6 @@ const Index = () => {
                 <Calendar className="w-6 h-6 text-accent" />
                 <h3 className="section-title !mb-0">News & Events</h3>
               </div>
-              <div className="mb-4 rounded-xl overflow-hidden border shadow-sm">
-                <img src={newsEventPhoto} alt="News & Events" className="w-full h-48 object-cover" />
-              </div>
               <div className="space-y-4">
                 {events.map((event, i) => (
                   <div key={i} className="bg-card rounded-xl border shadow-sm p-5 hover:shadow-md transition-shadow">
