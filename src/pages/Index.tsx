@@ -177,7 +177,7 @@ const Index = () => {
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Apart from academic focus is to give conducive and friendly environment for student to foster.
               </p>
-              <h4 className="text-lg font-heading font-bold text-foreground">Mr. Jagmohan Singh Saluja</h4>
+              <h4 className="text-xl font-heading font-extrabold text-foreground">Mr. Jagmohan Singh Saluja</h4>
               <p className="text-sm text-accent font-medium">Chairman, Bhagwanti Education Centre & Degree College</p>
             </div>
           </div>
