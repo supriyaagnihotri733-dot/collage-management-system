@@ -168,11 +168,17 @@ const Index = () => {
               />
             </div>
             <div className="text-center md:text-left">
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                "Education is the most powerful weapon which you can use to change the world. At Bhagwanti Education Centre & Degree College, we are committed to nurturing young minds with quality education, moral values, and holistic development to build a brighter future for our nation."
+              <p className="text-muted-foreground leading-relaxed mb-3">
+                BECDC has completed 18 years of academic session commencing from 2004. From the chairman point of view the journey has been very satisfying. The institute introduced Bachelor of Education program in 2004 after getting recognition from NCTE and affiliation from CSJM University.
               </p>
-              <h4 className="text-lg font-heading font-bold text-foreground">Chairman</h4>
-              <p className="text-sm text-accent font-medium">Bhagwanti Education Centre & Degree College</p>
+              <p className="text-muted-foreground leading-relaxed mb-3">
+                Ever since the growing pattern has been continuous and consistent with supporting staff and management the institute introduced courses BBA, BCA, B.Sc, to meet contemporary demand. Two more courses introduced D.El.Ed (B.T.C) and M.Ed. gave complete range in field of education imparting academic excellence.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Apart from academic focus is to give conducive and friendly environment for student to foster.
+              </p>
+              <h4 className="text-lg font-heading font-bold text-foreground">Mr. Jagmohan Singh Saluja</h4>
+              <p className="text-sm text-accent font-medium">Chairman, Bhagwanti Education Centre & Degree College</p>
             </div>
           </div>
         </div>
