@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Bell, Calendar, BookOpen, Users, Award, ArrowRight, ChevronLeft, ChevronRight, Facebook, Instagram, Youtube, ExternalLink } from "lucide-react";
 import collegeBuilding from "@/assets/college-building.png";
 import collegeBuilding2 from "@/assets/college-building-2.png";
+import chairmanPhoto from "@/assets/chairman.jpg";
 import heroBanner1 from "@/assets/classroom.png";
 import heroBanner2 from "@/assets/hero-banner-2.jpg";
 import heroBanner3 from "@/assets/hero-banner-3.jpg";
@@ -154,6 +155,28 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Chairman's Message */}
+      <section className="py-12 md:py-16 bg-secondary/30">
+        <div className="container mx-auto px-4">
+          <h3 className="section-title text-center mb-10">Chairman's Message</h3>
+          <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8">
+            <div className="flex-shrink-0">
+              <img
+                src={chairmanPhoto}
+                alt="Chairman - Bhagwanti Education Centre"
+                className="w-48 h-48 md:w-56 md:h-56 rounded-xl object-cover shadow-lg border-4 border-accent/20"
+              />
+            </div>
+            <div className="text-center md:text-left">
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                "Education is the most powerful weapon which you can use to change the world. At Bhagwanti Education Centre & Degree College, we are committed to nurturing young minds with quality education, moral values, and holistic development to build a brighter future for our nation."
+              </p>
+              <h4 className="text-lg font-heading font-bold text-foreground">Chairman</h4>
+              <p className="text-sm text-accent font-medium">Bhagwanti Education Centre & Degree College</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Follow Us */}
       <section className="bg-navy-gradient py-12 md:py-16">
