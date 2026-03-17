@@ -5,6 +5,7 @@ import { Bell, Calendar, BookOpen, Users, Award, ArrowRight, ChevronLeft, Chevro
 import collegeBuilding from "@/assets/college-building.png";
 import collegeBuilding2 from "@/assets/college-building-2.png";
 import chairmanPhoto from "@/assets/chairman.jpg";
+import secretaryPhoto from "@/assets/secretary.jpeg";
 import heroBanner1 from "@/assets/classroom.png";
 import heroBanner2 from "@/assets/hero-banner-2.jpg";
 import heroBanner3 from "@/assets/hero-banner-3.jpg";
