@@ -194,13 +194,13 @@ const Index = () => {
             Stay connected with us on social media for the latest updates, events, and news.
           </p>
           <div className="flex gap-6 justify-center">
-            <a href="#" className="w-14 h-14 rounded-full bg-primary-foreground/20 text-primary-foreground flex items-center justify-center hover:bg-primary-foreground/30 transition-colors backdrop-blur-sm">
+            <a href="#" className="w-14 h-14 rounded-full bg-[#1877F2] text-white flex items-center justify-center hover:opacity-80 transition-opacity">
               <Facebook className="w-6 h-6" />
             </a>
-            <a href="#" className="w-14 h-14 rounded-full bg-primary-foreground/20 text-primary-foreground flex items-center justify-center hover:bg-primary-foreground/30 transition-colors backdrop-blur-sm">
+            <a href="#" className="w-14 h-14 rounded-full bg-gradient-to-br from-[#F58529] via-[#DD2A7B] to-[#8134AF] text-white flex items-center justify-center hover:opacity-80 transition-opacity">
               <Instagram className="w-6 h-6" />
             </a>
-            <a href="#" className="w-14 h-14 rounded-full bg-primary-foreground/20 text-primary-foreground flex items-center justify-center hover:bg-primary-foreground/30 transition-colors backdrop-blur-sm">
+            <a href="#" className="w-14 h-14 rounded-full bg-[#FF0000] text-white flex items-center justify-center hover:opacity-80 transition-opacity">
               <Youtube className="w-6 h-6" />
             </a>
           </div>
