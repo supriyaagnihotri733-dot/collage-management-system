@@ -25,6 +25,7 @@ const Navbar = () => {
           <div className="flex items-center gap-6">
             <span className="flex items-center gap-1"><Phone className="w-3 h-3" /> +91-1234-567890</span>
             <span className="flex items-center gap-1"><Mail className="w-3 h-3" /> info@bhagwanti.edu.in</span>
+            <span className="flex items-center gap-1"><MapPin className="w-3 h-3" /> Mandhana, Kanpur</span>
           </div>
           <div className="flex items-center gap-4">
             <Link to="/admin" className="hover:text-accent transition-colors">Admin Login</Link>
